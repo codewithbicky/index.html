@@ -1,85 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My First Web Page</title>
-
-    <style>
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-            background: #f4f4f4;
-            text-align: center;
-        }
-
-        header {
-            background: #007BFF;
-            color: white;
-            padding: 20px;
-        }
-
-        main {
-            padding: 40px;
-        }
-
-        .box {
-            background: white;
-            width: 80%;
-            max-width: 500px;
-            margin: auto;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
-        }
-
-        button {
-            background: #007BFF;
-            color: white;
-            border: none;
-            padding: 10px 20px;
-            border-radius: 5px;
-            cursor: pointer;
-            font-size: 16px;
-        }
-
-        button:hover {
-            background: #0056b3;
-        }
-
-        footer {
-            margin-top: 40px;
-            background: #222;
-            color: white;
-            padding: 15px;
-        }
-    </style>
-</head>
-
+<html>
 <body>
 
-    <header>
-        <h1>Welcome to My First Web Page</h1>
-    </header>
+<h2>Hello Page</h2>
 
-    <main>
-        <div class="box">
-            <h2>Hello!</h2>
-            <p>This is my first HTML web page.</p>
+<button onclick="showMessage()">Click Me</button>
 
-            <button onclick="showMessage()">Click Me</button>
-        </div>
-    </main>
-
-    <footer>
-        <p>&copy; 2026 My First Website. All Rights Reserved.</p>
-    </footer>
-
-    <script>
-        function showMessage() {
-            alert("Welcome to my first website!");
-        }
-    </script>
+<script>
+function showMessage() {
+    alert("Hello, Welcome to JavaScript!");
+}
+</script>
 
 </body>
 </html>
