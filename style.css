@@ -59,3 +59,14 @@ body{
     margin-top:15px;
     color:red;
 }
+.login-box h1{
+    color:#00ffcc;
+    font-size:28px;
+    margin-bottom:10px;
+}
+
+.login-box p{
+    color:#cccccc;
+    font-size:14px;
+    margin-bottom:20px;
+}
